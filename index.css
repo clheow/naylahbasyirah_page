@@ -1,0 +1,242 @@
+.halaman-awal-portofolio {
+  	width: 100%;
+  	height: 1306px;
+  	position: relative;
+  	background: linear-gradient(135deg, #fdf2f8, #fff1f2), linear-gradient(#fff, #fff);
+  	text-align: center;
+  	font-size: 48px;
+  	color: #1e2939;
+  	font-family: Inter;
+}
+.section {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1151.2px;
+  	height: 746.4px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.container {
+  	height: 348px;
+  	width: 896px;
+  	position: relative;
+}
+.image-portfolio-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 352px;
+  	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+  	border-radius: 26843500px;
+  	width: 192px;
+  	height: 192px;
+  	object-fit: cover;
+}
+.heading-1 {
+  	position: absolute;
+  	top: 224px;
+  	left: 0px;
+  	width: 896px;
+  	height: 48px;
+}
+.hi-im-jane-container {
+  	position: absolute;
+  	top: -3px;
+  	left: 262.58px;
+  	line-height: 48px;
+  	flex-shrink: 0;
+}
+.jane-doe {
+  	color: #f6339a;
+}
+.paragraph {
+  	position: absolute;
+  	top: 288px;
+  	left: 0px;
+  	width: 896px;
+  	height: 28px;
+  	font-size: 20px;
+  	color: #4a5565;
+}
+.creative-designer {
+  	position: absolute;
+  	top: -1.2px;
+  	left: 303.67px;
+  	line-height: 28px;
+  	flex-shrink: 0;
+}
+.section2 {
+  	position: absolute;
+  	top: 826.4px;
+  	left: 191.6px;
+  	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+  	border-radius: 24px;
+  	background-color: #fff;
+  	width: 768px;
+  	height: 400px;
+  	text-align: left;
+  	font-size: 30px;
+  	color: #4a5565;
+}
+.container2 {
+  	position: absolute;
+  	top: 48px;
+  	left: 48px;
+  	width: 672px;
+  	height: 36px;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #1e2939;
+}
+.icon {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+}
+.heading-2 {
+  	height: 36px;
+  	width: 141.1px;
+  	position: relative;
+}
+.about-me {
+  	position: absolute;
+  	top: -1.6px;
+  	left: 0px;
+  	line-height: 36px;
+  	flex-shrink: 0;
+}
+.paragraph2 {
+  	position: absolute;
+  	top: 108px;
+  	left: 48px;
+  	width: 672px;
+  	height: 52px;
+  	font-size: 16px;
+}
+.hi-im-a {
+  	position: absolute;
+  	top: -2.4px;
+  	left: 0px;
+  	line-height: 26px;
+  	display: inline-block;
+  	width: 654px;
+  	flex-shrink: 0;
+}
+.paragraph3 {
+  	position: absolute;
+  	top: 176px;
+  	left: 48px;
+  	width: 672px;
+  	height: 52px;
+  	font-size: 16px;
+}
+.when-im-not {
+  	position: absolute;
+  	top: -2.4px;
+  	left: 0px;
+  	line-height: 26px;
+  	display: inline-block;
+  	width: 660px;
+  	flex-shrink: 0;
+}
+.container3 {
+  	position: absolute;
+  	top: 260px;
+  	left: 48px;
+  	width: 672px;
+  	height: 92px;
+  	text-align: center;
+  	color: #f6339a;
+}
+.container4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 16px;
+  	background-color: #fdf2f8;
+  	width: 213.3px;
+  	height: 92px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 16px 0px;
+  	box-sizing: border-box;
+  	gap: 4px;
+}
+.container5 {
+  	align-self: stretch;
+  	height: 36px;
+  	position: relative;
+}
+.b {
+  	position: absolute;
+  	top: -1.6px;
+  	left: 70.42px;
+  	line-height: 36px;
+  	flex-shrink: 0;
+}
+.container6 {
+  	align-self: stretch;
+  	height: 20px;
+  	position: relative;
+  	font-size: 14px;
+  	color: #4a5565;
+}
+.years {
+  	position: absolute;
+  	top: -0.2px;
+  	left: 72.77px;
+  	line-height: 20px;
+}
+.container7 {
+  	position: absolute;
+  	top: 0px;
+  	left: 229.33px;
+  	border-radius: 16px;
+  	background-color: #fdf2f8;
+  	width: 213.3px;
+  	height: 92px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 16px 0px;
+  	box-sizing: border-box;
+  	gap: 4px;
+}
+.b2 {
+  	position: absolute;
+  	top: -1.6px;
+  	left: 60.8px;
+  	line-height: 36px;
+  	flex-shrink: 0;
+}
+.projects {
+  	position: absolute;
+  	top: -0.2px;
+  	left: 63.27px;
+  	line-height: 20px;
+}
+.container10 {
+  	position: absolute;
+  	top: 0px;
+  	left: 458.66px;
+  	border-radius: 16px;
+  	background-color: #fdf2f8;
+  	width: 213.3px;
+  	height: 92px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 16px 16px 0px;
+  	box-sizing: border-box;
+  	gap: 4px;
+}
+.clients {
+  	position: absolute;
+  	top: -0.2px;
+  	left: 67.96px;
+  	line-height: 20px;
+}
+

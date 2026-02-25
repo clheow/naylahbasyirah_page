@@ -1,10 +1,10 @@
 .halaman-awal-portofolio {
   	width: 100%;
-  	height: 1306px;
+  	height: 1200px;
   	position: relative;
   	background: linear-gradient(135deg, #fdf2f8, #fff1f2), linear-gradient(#fff, #fff);
   	text-align: center;
-  	font-size: 48px;
+  	font-size: 36px;
   	color: #1e2939;
   	font-family: Inter;
 }
@@ -12,14 +12,14 @@
   	position: absolute;
   	top: 0px;
   	left: 0px;
-  	width: 1151.2px;
-  	height: 746.4px;
+  	width: 1075px;
+  	height: 656px;
   	display: flex;
   	align-items: center;
   	justify-content: center;
 }
 .container {
-  	height: 348px;
+  	height: 482px;
   	width: 896px;
   	position: relative;
 }
@@ -40,36 +40,36 @@
   	width: 896px;
   	height: 48px;
 }
-.hi-im-jane-container {
+.hello-im-naylah-container {
   	position: absolute;
   	top: -3px;
-  	left: 262.58px;
+  	left: 208.58px;
   	line-height: 48px;
   	flex-shrink: 0;
 }
-.jane-doe {
+.naylah-basyirah-b {
   	color: #f6339a;
 }
 .paragraph {
   	position: absolute;
-  	top: 288px;
-  	left: 0px;
+  	top: 344px;
+  	left: -0.5px;
   	width: 896px;
   	height: 28px;
   	font-size: 20px;
   	color: #4a5565;
 }
-.creative-designer {
+.computer-science-student {
   	position: absolute;
   	top: -1.2px;
-  	left: 303.67px;
+  	left: 320.67px;
   	line-height: 28px;
   	flex-shrink: 0;
 }
 .section2 {
   	position: absolute;
-  	top: 826.4px;
-  	left: 191.6px;
+  	top: 721px;
+  	left: 153px;
   	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
   	border-radius: 24px;
   	background-color: #fff;

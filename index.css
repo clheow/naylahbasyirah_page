@@ -79,6 +79,13 @@
   	font-size: 30px;
   	color: #4a5565;
 }
+
+/* add padding so absolutely-positioned header doesn't overlap flow content */
+.section2 {
+  padding-top: 96px;
+  padding-left: 48px;
+  box-sizing: border-box;
+}
 .container2 {
   	position: absolute;
   	top: 48px;
@@ -96,50 +103,41 @@
   	position: relative;
 }
 .heading-2 {
-  	height: 36px;
-  	width: 141.1px;
-  	position: relative;
+   height: 36px;
+   width: auto;
+   display: flex;
+   align-items: center;
+   gap: 8px;
 }
 .about-me {
-  	position: absolute;
-  	top: -1.6px;
-  	left: 0px;
-  	line-height: 36px;
-  	flex-shrink: 0;
+   position: static;
+   line-height: 36px;
+   flex-shrink: 0;
+   white-space: nowrap;
 }
 .paragraph2 {
-  	position: absolute;
-  	top: 108px;
-  	left: 48px;
-  	width: 672px;
-  	height: 52px;
-  	font-size: 16px;
+  position: static;
+  margin: 0 0 8px 0;
+  width: 672px;
+  font-size: 16px;
 }
 .hi-im-a {
-  	position: absolute;
-  	top: -2.4px;
-  	left: 0px;
-  	line-height: 26px;
-  	display: inline-block;
-  	width: 654px;
-  	flex-shrink: 0;
+  position: static;
+  display: block;
+  line-height: 26px;
+  width: 100%;
 }
 .paragraph3 {
-  	position: absolute;
-  	top: 176px;
-  	left: 48px;
-  	width: 672px;
-  	height: 52px;
-  	font-size: 16px;
+  position: static;
+  margin: 12px 0 0 0;
+  width: 672px;
+  font-size: 16px;
 }
 .when-im-not {
-  	position: absolute;
-  	top: -2.4px;
-  	left: 0px;
-  	line-height: 26px;
-  	display: inline-block;
-  	width: 660px;
-  	flex-shrink: 0;
+  position: static;
+  display: block;
+  line-height: 26px;
+  width: 100%;
 }
 .container3 {
   	position: absolute;
@@ -240,3 +238,15 @@
   	line-height: 20px;
 }
 
+/* Keep greeting text black; make the name pink and on its own line */
+.hi-im-naylah-container {
+	color: #1e2939;
+}
+.hi-im-naylah-container .naylah-basyirah {
+	display: block;
+	margin-top: 4px;
+	color: #f6339a;
+}
+
+
+ 

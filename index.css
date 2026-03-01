@@ -210,24 +210,6 @@ body::before {
   margin-top: 0.5rem;
 }
 
-.container4, .container7, .container10 {
-  background: linear-gradient(135deg, #fff0f7, #ffe4f0);
-  border: 2px solid #ffc8de;
-  border-radius: 20px;
-  padding: 0;
-  text-align: center;
-  width: 140px;
-  height: 140px;
-  box-shadow: 0 4px 14px rgba(255,120,170,0.15);
-  transition: transform 0.2s, box-shadow 0.2s;
-  cursor: default;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .container7 {
   background: linear-gradient(135deg, #f0f6ff, #deeeff);
   border-color: #b8d6ff;

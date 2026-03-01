@@ -1,60 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, width=device-width">
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" />
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
 
-  <!-- Floating sparkle decorations -->
-  <span class="sparkle" style="left:5%;top:25%;animation-delay:0s;">✨</span>
-  <span class="sparkle" style="left:92%;top:40%;animation-delay:1.5s;">🌸</span>
-  <span class="sparkle" style="left:8%;top:65%;animation-delay:3s;">💫</span>
-  <span class="sparkle" style="left:88%;top:70%;animation-delay:0.8s;">🌷</span>
-  <span class="sparkle" style="left:50%;top:90%;animation-delay:2s;">🍓</span>
+<div class="portfolio">
 
-  <div class="halaman-awal-portofolio">
+  <!-- Nav -->
+  <nav class="nav">
+    <span class="nav-logo">Naylah ✦</span>
+    <span class="nav-tag">Student</span>
+  </nav>
 
-    <!-- SECTION 1: Hero -->
-    <div class="section">
-      <div class="container">
-        <img class="image-portfolio-icon" src="peak.png" alt="Portfolio image">
-
-        <div class="heading-1">
-          <b class="hi-im-naylah-container">
-            <span>Hellooo! I'm </span>
-            <span class="naylah-basyirah">Naylah Basyirah B. Siduppa</span>
-          </b>
-        </div>
-        <div class="paragraph">
-          <div class="creative-designer">Computer Science Student</div>
-        </div>
-      </div>
+  <!-- SECTION 1: Hero -->
+  <div class="card hero">
+    <div class="photo-wrap">
+      <img class="image-portfolio-icon" src="peak.png" alt="Naylah Basyirah">
     </div>
 
-    <!-- SECTION 2: About Me -->
-    <div class="section2">
-      <div class="container2">
-        <img class="icon" src="love.svg" alt="love icon">
-        <div class="heading-2">
-          <b class="about-me">About Me</b>
-        </div>
-      </div>
+    <div class="hero-text">
+      <p class="greeting">Hellooo, I'm</p>
+      <h1 class="hero-name">Naylah Basyirah<br><em>B. Siduppa</em></h1>
+      <p class="hero-role">Computer Science Student</p>
+    </div>
 
-      <div class="paragraph2">
-        <div class="hi-im-a">Hi! I'm a computer science student who is learning to create beautiful, cute, and functional designs. Creating simple and cute aesthetic designs makes me happy and I truly enjoy the process.</div>
-      </div>
-
-      <div class="paragraph3">
-        <div class="when-im-not">I love exploring about UI/UX design, discovering new creative ideas, and turning imagination into something beautiful. Let's create something amazing together! ✨✨✨</div>
-      </div>
-
+    <div class="hero-badges">
+      <span class="badge">UI Design</span>
+      <span class="badge">UX Research</span>
+      <span class="badge">Prototyping</span>
     </div>
   </div>
+
+  <!-- SECTION 2: About Me -->
+  <div class="card about-card">
+
+    <div class="section-label">
+      <img class="section-icon" src="love.svg" alt="love">
+      <span class="section-label-text">About Me</span>
+      <div class="section-label-line"></div>
+    </div>
+
+    <div class="about-body">
+      <p class="about-p">Hi! I'm a <strong>computer science student who is learning to create beautiful, cute, and functional designs</strong>. Creating simple and cute aesthetic designs makes me happy and I truly enjoy the process.</p>
+      <p class="about-p">I love exploring UI/UX design, discovering new creative ideas, and turning imagination into something beautiful. <strong>Let's create something amazing together!</strong> ✨</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Social links -->
+    <div class="contact-links-section">
+      <a class="contact-link" href="https://instagram.com/username" target="_blank">
+        <div class="contact-link-icon ig">
+          <img src="instagram.png" alt="Instagram">
+        </div>
+        <div class="contact-link-info">
+          <span class="contact-link-platform">Instagram</span>
+          <span class="contact-link-handle">@naylarah_</span>
+        </div>
+        <span class="contact-link-arrow">→</span>
+      </a>
+
+      <a class="contact-link" href="https://wa.me/62812345678" target="_blank">
+        <div class="contact-link-icon wa">
+          <img src="whatsapp.png" alt="WhatsApp">
+        </div>
+        <div class="contact-link-info">
+          <span class="contact-link-platform">WhatsApp</span>
+          <span class="contact-link-handle">+62 812-3456-7890</span>
+        </div>
+        <span class="contact-link-arrow">→</span>
+      </a>
+
+      <a class="contact-link" href="mailto:YourEmail@email.com" target="_blank">
+        <div class="contact-link-icon em">
+          <img src="email.png" alt="Email">
+        </div>
+        <div class="contact-link-info">
+          <span class="contact-link-platform">Email</span>
+          <span class="contact-link-handle">MyEmail@email.com</span>
+        </div>
+        <span class="contact-link-arrow">→</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- SECTION 3: Contact Form -->
+  <div class="card form-card">
+
+    <div class="section-label">
+      <span class="section-label-text">Contact Me</span>
+      <div class="section-label-line"></div>
+    </div>
+
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input class="form-input" type="text" placeholder="e.g. Naylah Basyirah" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" placeholder="youremail@email.com" required>
+        </div>
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Message</label>
+        <textarea class="form-input form-textarea" placeholder="Tell me about your request! 🌸" required></textarea>
+      </div>
+      <button class="form-btn" type="submit">
+        <span>✉️</span> Send Message
+      </button>
+    </form>
+
+    <div class="form-success" id="successMsg">
+      ✨ Thank you! I'll get back to you soon~
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <p class="footer">© 2025 Naylah Basyirah · Designed with love ♡</p>
+
+</div>
+
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    document.querySelector('.contact-form').style.display = 'none';
+    document.getElementById('successMsg').style.display = 'block';
+  }
+</script>
 
 </body>
 </html>
